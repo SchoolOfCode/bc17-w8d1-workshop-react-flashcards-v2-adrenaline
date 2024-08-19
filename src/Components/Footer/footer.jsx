@@ -1,18 +1,15 @@
 import reactLogo from "/src/assets/react.svg"
-import styles from './header.module.css'
+import styles from "./footer.module.css"
 
-export default function Header() {
+export default function Footer() {
 
     return (
-
         <>
-            <div>
+            <div className={styles.footer}><p>Built with React</p>
                 <a href="https://react.dev" target="_blank">
                     <img src={reactLogo} className={styles.headerLogo} alt="React logo" />
                 </a>
             </div>
-            <h1 className={styles.title}>React Flashcards</h1>
-            <p>🧠 Expand Your React Knowledge, One Flashcard at a Time! 🐌</p>
         </>
     )
 }

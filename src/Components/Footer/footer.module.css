@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerLogo {
+    margin-left: 6px;
+    width: 18px;
+}
