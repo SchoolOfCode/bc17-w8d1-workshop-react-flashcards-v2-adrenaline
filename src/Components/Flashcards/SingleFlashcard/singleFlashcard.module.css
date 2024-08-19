@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    background-color: #323949;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 30px;
+}
+
+.emoji {
+    font-size: 33px;
+}
+
+.question {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.answer {
+
+}
